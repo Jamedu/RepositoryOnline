@@ -6,10 +6,10 @@ public class RepositoryTest {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//lustge_Methode();
+		lustigeMethode();
 		
 	}
-	public static void lustige_Methode()
+	public static void lustigeMethode() 
 	{
 		if(variable==4) 
 		{
