@@ -20,7 +20,7 @@ public static void main(String[] args) {
 
 public static void rechenspiele ()
 {
-	eineZahl = 5; nochEineZahl = 4;
+	eineZahl = 7; nochEineZahl = 4;
 	ergebnis = eineZahl * nochEineZahl ;
 	eineZahlMitKomma = 20 ;
 	
@@ -42,11 +42,10 @@ public static void rechenspiele ()
 	
 	public static void fibonacciFolge ()
 	{i=0; u=1;
-	while(i-u<500) {i= u+i
-		{System.out.println(i);
-		}
-	u=u+i
-			
+	while(i-u<500)
+	{i= u+i ;
+		System.out.println(i);	
+		u=u+i ;
 	}
 	}
 	

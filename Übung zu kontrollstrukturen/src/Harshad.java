@@ -13,5 +13,5 @@ public class Harshad {
         if (zahl <= 9) return zahl;
         return zahl%10 + Quersumme(zahl/10);
     }
-     
+     //Dieses Programm gibt alle Harshad Zahlen zwischen 1 und 100 aus
 }
