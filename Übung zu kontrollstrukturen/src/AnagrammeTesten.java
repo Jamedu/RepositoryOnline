@@ -8,13 +8,13 @@ public class AnagrammeTesten {
 	      Wort1 = (Wort1.toLowerCase()).trim();
 	      char[] Wort1Arr = Wort1.toCharArray();
 
-	      String Wort2 = "lahol";
+	      String Wort2 = "lahool";
 	      Wort2 = (Wort2.toLowerCase()).trim();
 	      ArrayList<Character> Wort2ArrList = convertStringToArraylist(Wort2);
 
 	      if (Wort1.length() != Wort2.length()) 
 	      {
-	          System.out.print("Diese Wörter sind keine Anagramme, sie sind noch nicht mal gleich lang!");
+	          System.out.print("Diese Wï¿½rter sind keine Anagramme, sie sind noch nicht mal gleich lang!");
 	      } 
 	      else 
 	      {
@@ -31,7 +31,7 @@ public class AnagrammeTesten {
 	              }
 	              if(stimmtUeberein == false)
 	              {
-	                  System.out.print("Diese Wörter sind keine Anagramme.");
+	                  System.out.print("Diese Wï¿½rter sind keine Anagramme.");
 	                  return;
 	              } 
 	          }

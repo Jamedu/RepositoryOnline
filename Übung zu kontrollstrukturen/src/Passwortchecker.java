@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Passwortchecker {
 	
-	static boolean einGroß=false;
+	static boolean einGroï¿½=false;
 	static boolean einKlein=false;
 	static boolean einSonder=false;
 	static boolean langGenug=false;
@@ -19,7 +19,7 @@ public class Passwortchecker {
 	public static void zuCharArray (String test)
 	{
 		System.out.println(test);
-		char[] charArray = test.toCharArray();
+		char[] charArray = test.toCharArray(); //Oben einegebens wort zu char array
 	//	System.out.println(charArray[0]);
 	//	System.out.println();
 		
@@ -29,11 +29,11 @@ public class Passwortchecker {
 			{
 				if (Character.isUpperCase(charArray[i]))
 				{
-					System.out.println(charArray[i] + " ist ein Großbuchstabe");
-					einGroß=true;
+					System.out.println(charArray[i] + " ist ein Groï¿½buchstabe");
+					einGroï¿½=true;
 					
 				}else {
-					System.out.println(charArray[i] + " ist kein Großbuchstabe");
+					System.out.println(charArray[i] + " ist kein Groï¿½buchstabe");
 				}
 			}
 		
@@ -106,7 +106,7 @@ public class Passwortchecker {
 			 
 			 
 			 
-			 if(langGenug==true && eineZahl==true && einGroß==true && einKlein==true && einSonder==true)
+			 if(langGenug==true && eineZahl==true && einGroï¿½==true && einKlein==true && einSonder==true)
 			 {
 				 System.out.println("Das Passwort ist sicher");
 			 }else {
@@ -122,9 +122,9 @@ public class Passwortchecker {
 				 
 			 }
 			
-			 if(einGroß==false)
+			 if(einGroï¿½==false)
 			 {
-				 System.out.println("Deinem Passwort fehlt mindestens ein Großbuchstabe!");
+				 System.out.println("Deinem Passwort fehlt mindestens ein Groï¿½buchstabe!");
 			 }else {
 				 
 			 }
